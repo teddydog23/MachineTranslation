@@ -66,8 +66,8 @@ content/
 │  ├─ MyDrive/
 │  │  ├─ IT4772E - NLP/
 │  │  │  ├─ marianmt/
-│  │  │  │  ├─ marian_finetuned_vi_final/
-│  │  │  │  ├─ best_model.pt
+│  │  │  │  ├─ marian_finetuned_vi_final/ # marianmt checkpoint
+│  │  │  │  ├─ best_model.pt # seq2seq checkpoint
 │  │  │  │  ├─ GUI_marianmt_seq2seq.ipynb
 
 ```
