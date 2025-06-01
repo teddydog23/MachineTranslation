@@ -2,7 +2,7 @@
 
 **Capstone Project - IT4772E: Natural Language Processing**
 
-Lecturer: Assoc. Prof. Lê Thanh Hương
+Lecturer: [Assoc. Prof. Lê Thanh Hương](https://soict.hust.edu.vn/pgs-ts-le-thanh-huong.html)
 
 Date: May 2025 - Semester 20242 - HUST
 
