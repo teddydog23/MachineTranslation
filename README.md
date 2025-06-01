@@ -26,7 +26,6 @@ This model was trained locally. For the dataset, please follow this [link](https
 PhoMT/
 ├─ seq2seq_lstm_attention_beam_search.ipynb
 ├─ prepare.ipynb # run this file to convert raw dataset to .json format (this is actually related to marianmt, but I leverage this folder due to the available raw dataset for converting :D)
-├─ best_model.pt
 ├─ detokenization/
 │  ├─ train/
 │  │  ├─ train.en
