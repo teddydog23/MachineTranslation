@@ -43,7 +43,7 @@ PhoMT/
 **2. Finetuned MarianMT**
 
 This model was trained on Google Colab. For the dataset, we combined the raw text files 
-```.en``` and ```.vi``` and convert it to the ```json``` format for MarianMT. You can directly download the dataset file ```phomt_cleaned.json``` in this [link](https://drive.google.com/file/d/1z0QBWRpmLqYP8RdaKgQf0HokNGsP1l36/view?usp=sharing).
+```.en``` and ```.vi``` and convert it to the ```json``` format for MarianMT, by running the ```prepare.ipynb``` in the previous workspace. You can directly download the dataset file ```phomt_cleaned.json``` in this [link](https://drive.google.com/file/d/1z0QBWRpmLqYP8RdaKgQf0HokNGsP1l36/view?usp=sharing).
 
 ```bash
 content/
