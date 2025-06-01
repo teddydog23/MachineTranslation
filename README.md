@@ -78,14 +78,17 @@ git clone https://github.com/teddydog23/MachineTranslation.git
 ```
 **1. Seq2seq + Bahdanau Attention**
 
-Download the dataset PhoMT, copy ```seq2seq_lstm_attention_beam_search.ipynb``` and ```requirements.txt``` in my ```seq2seq``` branch to your own workspace. Just mimic my workspace to avoid any trouble with refactoring.
+Download the dataset PhoMT, copy ```seq2seq_lstm_attention_beam_search.ipynb``` and ```requirements.txt``` in my ```seq2seq``` branch to your workspace. Just mimic my workspace to avoid any trouble with refactoring.
 
 Ensure full environment setup before running ```seq2seq_lstm_attention_beam_search.ipynb```:
 
 ```bash
 pip install -r requirements.txt
-```
 
 **2. Finetuned MarianMT**
 
+Download the dataset (```.json``` file), simulate my Colab workspace, run ```marianmt.ipynb```.
+
 **3. GUI**
+
+Run ```GUI_marianmt_seq2seq.ipynb``` and test with some English sentences.
