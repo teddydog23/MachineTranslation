@@ -72,11 +72,20 @@ This section illustrates our workspace for running the GUI, which was separately
 ```
 
 ## 🚀 How to Run
-  Clone my repo:
-  ```bash
-  git clone https://github.com/teddydog23/MachineTranslation.git
-  ```
+Clone my repo:
+```bash
+git clone https://github.com/teddydog23/MachineTranslation.git
+```
 **1. Seq2seq + Bahdanau Attention**
 
+Download the dataset PhoMT, copy ```seq2seq_lstm_attention_beam_search.ipynb``` and ```requirements.txt``` in my ```seq2seq``` branch to your own workspace. Just mimic my workspace to avoid any trouble with refactoring.
+
+Ensure full environment setup before running ```seq2seq_lstm_attention_beam_search.ipynb```:
+
+```bash
+pip install -r requirements.txt
+```
+
 **2. Finetuned MarianMT**
+
 **3. GUI**
