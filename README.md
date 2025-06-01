@@ -84,6 +84,7 @@ Ensure full environment setup before running ```seq2seq_lstm_attention_beam_sear
 
 ```bash
 pip install -r requirements.txt
+```
 
 **2. Finetuned MarianMT**
 
