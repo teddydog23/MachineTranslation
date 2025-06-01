@@ -72,3 +72,11 @@ This section illustrates our workspace for running the GUI, which was separately
 ```
 
 ## 🚀 How to Run
+  Clone my repo:
+  ```bash
+  git clone https://github.com/teddydog23/MachineTranslation.git
+  ```
+**1. Seq2seq + Bahdanau Attention**
+
+**2. Finetuned MarianMT**
+**3. GUI**
