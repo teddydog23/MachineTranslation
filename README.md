@@ -41,8 +41,8 @@ This model was trained locally. For the dataset, please follow this [link](https
 
 **2. Finetuned MarianMT**
 
-This model was trained on Google Colab. For the dataset, we combined the raw text files 
-```.en``` and ```.vi``` and convert it to the ```json``` format for MarianMT, by running the ```prepare.ipynb``` in the previous workspace. You can directly download the dataset file ```phomt_cleaned.json``` in this [link](https://drive.google.com/file/d/1z0QBWRpmLqYP8RdaKgQf0HokNGsP1l36/view?usp=sharing). Then easily copy it to your own workspace, in the same folder with ```marianmt.ipynb```.
+This model was trained on Google Colab. For the dataset, we convert the raw text files 
+```.en``` and ```.vi``` to the ```json``` format for MarianMT, by running the ```prepare.ipynb``` in the previous workspace. Here is the link to download the ```.json``` dataset directly: [```train.json```](https://drive.google.com/file/d/1fNQeLgE85RKbljWOAYen6bgAHcl3fwIj/view?usp=sharing), [```dev.json```](https://drive.google.com/file/d/1XW8Q9AdDw9JG9WiD20Gb53jJ6z0UfD_u/view?usp=sharing), [```test.json```](https://drive.google.com/file/d/1ygnGJ8-bSt_NoNkdb6Xk1LOtrN4cYPuh/view?usp=sharing). Then easily copy it to your own workspace, in the same folder with ```marianmt2.ipynb```.
 
 ```bash
   content/
@@ -50,14 +50,16 @@ This model was trained on Google Colab. For the dataset, we combined the raw tex
   │  ├─ MyDrive/
   │  │  ├─ IT4772E - NLP/
   │  │  │  ├─ marianmt/
-  │  │  │  │  ├─ marianmt.ipynb
-  │  │  │  │  ├─ phomt_cleaned.json
+  │  │  │  │  ├─ marianmt2.ipynb
+  │  │  │  │  ├─ train.json
+  │  │  │  │  ├─ dev.json
+  │  │  │  │  ├─ test.json
 
 ```
 
 **3. GUI**
 
-This section illustrates our workspace for running the GUI, which was separately implemented on Google Drive and Colab. You can find the checkpoint for both 2 models here: [MarianMT](https://drive.google.com/drive/folders/11zhhg9uWp-tcVQbZCITEZrywwpTg1_7p?usp=sharing), [Seq2seq](https://drive.google.com/file/d/1Eh5dsVSC755ClQPwnUWgJZnuB86EEAhN/view?usp=sharing).
+This section illustrates our workspace for running the GUI, which was separately implemented on Google Drive and Colab. You can find the checkpoint for both 2 models here: [MarianMT](https://drive.google.com/drive/folders/1T_RyXQlEIqaQ0olhvN7Oz1fkhJNzjWoK?usp=sharing), [Seq2seq](https://drive.google.com/file/d/1PmAirH9C0eO_hKH2jhJ9yKTQmJTEFw7I/view?usp=sharing).
 
 ```bash
   content/
@@ -88,7 +90,7 @@ pip install -r requirements.txt
 
 **2. Finetuned MarianMT**
 
-Download the dataset (```.json``` file), simulate my Colab workspace, run ```marianmt.ipynb```.
+Download the dataset (```.json``` file), simulate my Colab workspace, run ```marianmt2.ipynb```.
 
 **3. GUI**
 
